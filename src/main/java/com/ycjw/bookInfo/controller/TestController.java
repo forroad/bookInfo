@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("test")
 public class TestController {
 
-    @GetMapping("string")
+    @GetMapping("sring")
     public Response getString(){
         return new Response("请求成功","bookInfo");
     }
